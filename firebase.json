@@ -1,0 +1,33 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "house-app-5f972",
+          "appId": "1:711692081196:android:62bff017d8beb6381e5989",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "house-app-5f972",
+          "configurations": {
+            "android": "1:711692081196:android:62bff017d8beb6381e5989",
+            "ios": "1:711692081196:ios:0e2477113c1064091e5989",
+            "macos": "1:711692081196:ios:0e2477113c1064091e5989",
+            "web": "1:711692081196:web:afe14f6e13d31f191e5989",
+            "windows": "1:711692081196:web:9e2fcb3bfa7b0cf11e5989"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
